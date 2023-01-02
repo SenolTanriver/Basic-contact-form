@@ -1,0 +1,45 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-01 .conteiner {
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 100px;
+    background-color: rgba(255, 166, 0, 0.363);
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    border-radius: 15px;
+  }
+  .section-01 .conteiner h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .section-01 input {
+    padding-left: 10px;
+    width: 220px;
+    height: 30px;
+  }
+  .section-01 select {
+    width: 220px;
+    height: 30px;
+  }
+  .section-01 input, .section-01 select, .section-01 textarea {
+    border-radius: 12px;
+  }
+  .section-01 input:focus, .section-01 select:focus, .section-01 textarea:focus {
+    border: solid 2px red;
+  }
+  .section-01 .button {
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 13px;
+    cursor: pointer;
+  }
+  .section-01 .button:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+  }
+}/*# sourceMappingURL=Section01.css.map */

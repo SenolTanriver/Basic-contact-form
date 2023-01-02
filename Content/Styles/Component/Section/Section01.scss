@@ -1,0 +1,64 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .section-01 {
+    .conteiner {
+      display: inline-block;
+      text-align: center;
+      margin-top: 100px;
+      padding: 20px 100px;
+      background-color: rgba(255, 166, 0, 0.363);
+      left: 50%;
+      top: 50%;
+      margin-left: -250px;
+      border-radius: 15px;
+
+      h1 {
+        text-align: center;
+        margin-bottom: 25px;
+      }
+
+    }
+
+    input {
+      padding-left: 10px;
+      width: 220px;
+      height: 30px;
+    }
+
+    select {
+      width: 220px;
+      height: 30px;
+    }
+
+
+    input, select, textarea {
+      border-radius: 12px;
+      &:focus {
+        border: solid 2px red;
+     }
+    }
+
+
+    .button {
+      border: solid 1px black;
+      padding: 5px 10px;
+      border-radius: 13px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: red;
+      color:white;
+      transition: 0.5s;
+    }
+  }
+}
